@@ -58,6 +58,13 @@ header, main, section{
     flex: 1;
     font-size: 1.5em;
 }
+header{
+    padding: 2%;
+}
+h1,span{
+    font-size: 26px;
+    padding: .5%;
+}
 .container{
     border: 5px solid black;
 }
@@ -87,3 +94,4 @@ header, main, section{
 .numPadContainer{
     margin: 5%;
 }
+
