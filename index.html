@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">   
+    <link rel="stylesheet" href="style.css">
     <script src="app.js" defer></script>
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <h1>Calculator</h1>
         <span>app</span>
     </header>
     <main>
-        <section class="container">
+        <section class="calculator">
             <div class="display">
-                <span class="history">temp</span>
+                <span class="history"></span>
                 <span class="result">0</span>
             </div>
             <div class="numPadContainer">
-            <div class="numPad">
-                <button type="button" id="" class="operator">CE</button>
-                <button type="button" id="" class="operator">TAX</button>
-                <button type="button" id="" class="operator">%</button>
-                <button type="button" id="" class="operator">-</button>
-                <button type="button" id="" class="key">1</button>
-                <button type="button" id="" class="key">2</button>
-                <button type="button" id="" class="key">3</button>
-                <button type="button" id="" class="operator">+</button>
-                <button type="button" id="" class="key">4</button>
-                <button type="button" id="" class="key">5</button>
-                <button type="button" id="" class="key">6</button>
-                <button type="button" id="" class="operator">/</button>
-                <button type="button" id="" class="key">7</button>
-                <button type="button" id="" class="key">8</button>
-                <button type="button" id="" class="key">9</button>
-                <button type="button" id="" class="operator">*</button>
-                <button type="button" id="" class="space">$</button>
-                <button type="button" id="" class="key">0</button>
-                <button type="button" id="" class="operator">.</button>
-                <button type="button" id="" class="operator">Enter</button>
-            </div>
+                <div class="numPad">
+                    <button data-action="clear">CE</button>
+                    <button data-action="rewind">rewind</button>
+                    <button data-action="percent">%</button>
+                    <button data-action="subtract">-</button>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button data-action="add">+</button>
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button data-action="divide">/</button>
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button data-action="multiply">*</button>
+                    <button data-action="negative">$</button>
+                    <button>0</button>
+                    <button data-action="decimal">.</button>
+                    <button data-action="equal">=</button>
+                </div>
             </div>
         </section>
     </main>
 </body>
+
 </html>
